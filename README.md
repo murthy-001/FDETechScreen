@@ -1,5 +1,8 @@
 # FDETechScreen
 
+## Requirements (summary)
+Sort packages into stacks based on size and mass.
+
 ## Function
 `sort(width, height, length, mass) -> str`
 
@@ -11,7 +14,7 @@ Returns one of the stack catagories: `STANDARD`, `SPECIAL`, `REJECTED`
 - Bulky if volume ≥ 1,000,000 cm³ or any dimension ≥ 150 cm.
 - Heavy if mass ≥ 20 kg.
 
-## Stack catagories
+## Stacks
 - Both bulky and heavy -> REJECTED
 - Either bulky or heavy -> SPECIAL
 - Otherwise -> STANDARD
