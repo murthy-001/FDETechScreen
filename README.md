@@ -23,8 +23,12 @@ Returns one of the stack catagories: `STANDARD`, `SPECIAL`, `REJECTED`
 - Inputs are finite and non-negative numbers.
 - Zero values are allowed.
 
+## 1-click Replit demo
+Run in your browser: [Replit Demo](https://replit.com/@murthy01/FDETechScreen)
+
 ## Steps to run tests
-    python -m pip install pytest
-    pytest -q
+```bash
+python -m pip install pytest
+pytest -q
 
 
